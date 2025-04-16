@@ -1,0 +1,57 @@
+.navClass{
+    background-color: aquamarine;
+    border-radius: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 2vh;
+}
+.navClass ul{
+    overflow: auto;
+}
+.navClass ul li{
+    float: left;
+    list-style: none;
+    padding: 2vh 2vh;font-size: 3vh;
+
+}
+.navClass ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.navClass ul li a:hover{
+    background-color: red;
+    color: black;
+    border-radius: 3vh;
+    padding: 1vh;;
+}
+
+
+
+.searchId  {
+   
+    margin-left:auto;    
+}
+.searchId {
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.searchId .fa-search {
+    position: absolute;
+    left: 10px;
+    color: #aaa;
+}
+
+.searchId input {
+    padding-left: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+}
+
+
+
